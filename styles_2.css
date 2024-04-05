@@ -1,6 +1,5 @@
 /* styles_2.css */
 
-/* Resetting default margin and padding for all elements */
 * {
     margin: 0;
     padding: 0;
@@ -42,7 +41,6 @@ nav ul li button {
     font-size: 1rem;
 }
 
-/* Main section styles */
 .container {
     max-width: 960px;
     margin: 0 auto;

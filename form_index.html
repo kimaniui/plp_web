@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sample student registration form</title>
+    </head>
+    <body>
+    <div class="container">
+        <h2>Student Registration form</h2>
+        <form action="" method="get">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" placeholder="Enter your names" required><br><br>
+        <div class="calender">
+            <label for="dob">Date of Birth</label><br>
+            <input type="date" id="dob" required><br><br>
+        </div>
+        <div class="popdown">
+            <label for="gender">Gender</label><br><br>
+            <select name="gender" id="gender" required>
+                <option value="male">Male</option>
+                <option value="Female">Female</option>
+                <option value="other">Other</option>
+            </select><br><br>
+        </div>
+            <label for="address">Address</label><br>
+            <input type="text" id="address" required><br><br>
+            <label for="phone">Telephone</label><br>
+            <input type="tel" id="phone" required><br><br>
+            <label for="course">Course</label><br>
+            <select name="dropdown" id="course">
+                <option value="FRONTEND DEVELOPMENT">Frontend Development</option>
+                <option value="Back end Development">Backend Development</option>
+                <option value="Cloud Essentials">Cloud Essentials</option>
+                <option value="Data Analytics">Data Analytics</option>
+                <option value="Data Science">Data Science</option>
+            </select><br><br>
+            <input type="submit" value="Register">
+        </form>
+    </div>
+    </body>
+</html>
